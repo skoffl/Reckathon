@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: cursive;
+    }
+
+    form {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="text"],
+    input[type="text"],
+    input[type="email"],
+    input[type="password"]
+    input[type="password"]{
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+    }
+
+    input[type="submit"] {
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1><p style="text-align:center">Sponsor SignUp</p></h1>
+  <form action="https://mail.google.com/mail/u/0/#inbox" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+     <label for="PhNo">PhNo:</label>
+    <input type="text" id="PhNo" name="PhNo" required>
+
+    <label for="designation">Designation:</label>
+    <input type="text" id="designation" name="designation" required>
+
+    <label for="minspons">minspons:</label>
+    <input type="text" id="minspons" name="minspons" required>
+
+    <label for="maxspons">minspons:</label>
+    <input type="text" id="maxspons" name="maxspons" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="password">Confirm Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
