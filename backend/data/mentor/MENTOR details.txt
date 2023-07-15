@@ -1,0 +1,14 @@
+    MENTOR SIGNUP DETAILS
+NAME      DEG       EMAIL ID                    PH NUMBER        PASSWORD
+Arjun       M.E.       arjun32@gmail.com       9865447836       qwertyui
+Nithya      MBA      nithya12@gmail.com       8364573927       qwertyui
+Karthik      B.E       karthik@gmail.com         8765859467       qwertyui
+Priya          MBA      priyauyh@gmail.com     8758976587        qwertyui
+Surya        M.E       surya@gmail.com          9876789876        qwertyui
+Ananya      M.Sc.      ananya@gmail.com       7457326839        qwertyui
+Vishal         M.E      vishal@gmail.com           9807689087        qwertyui
+Kavya        B.E        kavya@gmail.com          8907645332        qwertyui
+Raghav      Ph.D.       raghav@gmail.com        8975678768        qwertyui
+Shreya      M.E        shreya@gmail.com        6387839262        qwertyui
+
+
