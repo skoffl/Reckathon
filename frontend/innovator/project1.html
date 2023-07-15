@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: 'Cursive1', cursive;
+    }
+
+    @font-face {
+      font-family: 'Cursive1';
+      src: url(path-to-cursive1-font.woff);
+    }
+
+    .option-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+    }
+
+    .option {
+      width: 150px;
+      padding: 20px;
+      text-align: center;
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .option:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1><p style="text-align:center">Project</p></h1>
+
+  <div class="option-container">
+    
+  <div class="option" onclick="redirectTo('file:///C:/Users/ADMIN/Desktop/SNShack/ongoing.html')">Ongoing</div>
+  <div class="option" onclick="redirectTo('file:///C:/Users/ADMIN/Desktop/SNShack/completed.html')">Completed</div>
+  
+   <script>
+    function redirectTo(url) {
+      window.location.href = url;
+    }
+  </script>
+  </div>
+</body>
+</html>
